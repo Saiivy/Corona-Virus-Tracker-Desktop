@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2020, 10:18:49 PM
+    Author     : navde
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+.root{
+    -fx-background-color:  #ff9933;
+    -fx-font-family: s;
+}
+.label{
+    -fx-font-size: 2em;
+    -fx-text-fill: black;
+    -fx-font-family: 'Spicy Rice', cursive;
+    -fx-letter-spacing:4px;
+    -fx-font-weight:bold;
+
+}
+
+.button{
+    -fx-text-fill: #f8f8f8;
+    -fx-background-color: rgba(0,0,0,.3);
+    -fx-border-width: 0;
+    -fx-text-alignment: center;
+    -fx-background-radius: 0;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1.4em; /* 12 */
+    -fx-text-fill: #f8f8f8;
+    -fx-cursor: hand;
+}
+
+.button:focused {
+    -fx-border-color: transparent;
+    -fx-border-width: 1, 1;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+
+}
+
+.button:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #ff9933;
+    -fx-border-color: transparent; 
+    -fx-font-size:22px;
+    -fx-font-weight:bold;
+
+
+}
+.list-view .list-cell:odd {
+    -fx-background-color:  #ff9933 ;
+    -fx-font-size:22px;
+    -fx-font-weight:bold;
+
+
+}
+.list-view{
+    -fx-padding:0;
+}
+/* The main scrollbar **track** CSS class  */
+.list-view .scroll-bar:vertical .track{
+    -fx-background-color: #ff9933;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.list-view .scroll-bar:vertical .increment-button ,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #ff9933;
+}
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:rgba(0,0,0,.3) ;
+}
+#bar{
+    .default-color0.chart-bar { -fx-bar-fill: white ;
+    }
+        -fx-background-color: #ff9933;
+}
